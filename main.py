@@ -1,7 +1,7 @@
 import functions
 import time
 now = time.strftime("%b %d-%m-%Y, %H:%M:%S")
-print("it is now : " + now)
+print("it is now: " + now)
 while True :
     task = input("Choose between add, show, edit, complete or exit: ")
     task = task.strip()
